@@ -6,7 +6,8 @@ var moment = require('moment');
 require('moment-timezone');
 moment.tz.setDefault("Asia/Seoul");
 let request = require('request');
-let cheerio = require('cheerio');
+const keyid = CONFIG.GurunaviKEY
+
 
 
 const adapter = new SlackAdapter({
@@ -87,48 +88,25 @@ controller.hears(['コロナ','covid','코로나','corona'], botScope, async(bot
 });
 
 
-//ぐるなび
-const DIALOG_ID = 'gurunavi';
-const gurunaviConv = new BotkitConversation(DIALOG_ID, controller);
-const keyid = CONFIG.GurunaviKEY;
-var result = '';
+controller.hears(['ぐるなび'], botScope, async(bot, message) => { 
+	console.log(message.text);
+	var gurunaviText = message.text.split(' ')
+	
+	if (gurunaviText[1] == undefined){
+		console.log('全角スペース');
+	   var gurunaviText = message.text.split('　')
+	 }
+	
+	var encodegurunavi = encodeURIComponent( gurunaviText[1] )
+	const { stdout, stderr, err } = shell.exec(`./shell/gurunavi.sh ${keyid} ${encodegurunavi} ${gurunaviText[2]}`)
+	
+	var stdoutArray = stdout.split('\n')
+	// var stdoutArray_splice = stdoutArray.splice(0,4);
+	var stdoutSlack = stdoutArray.join('\n')
+	var stdoutSlack2 = stdoutSlack.replace(/["]/g, "")
 
-gurunaviConv.say('ぐるなびテスト');
-gurunaviConv.ask('食べたいもの入力して（とんかつ、ラーメンなど）',async(response, convo, bot)=>{
-	gurunaviConv.say(`OK ${response} で調べる`);
-	// await convo.gotoThread('has_hours');
-	var encodegurunavi = encodeURIComponent( response )
-	var URL = 'https://api.gnavi.co.jp/RestSearchAPI/v3/?keyid=' + keyid + '&name=' + encodegurunavi
-	request.get({
-		uri : URL
-	},function(err,res,body){
-		var jData = JSON.parse(body);
-		var jerror = JSON.parse(err);
-		if(err){
-			console.log('에러발생');
-			console.log(err);
-		}else{
-			jData["rest"].forEach(function(item){
-				result = result + item.name 
-			});
-			result = result.split(" ").join("\n")
-			// console.log(result);	
-			gurunaviConv.say(URL);
-		}	
-	});
-  }, {key: 'name'});;
-
-
-controller.addDialog(gurunaviConv);
-
-controller.ready(() => {
-  controller.hears(['ぐるなび'], botScope, async (bot, message) => {
-    await bot.beginDialog(DIALOG_ID);
-  });
+	await bot.reply(message,stdoutSlack2);
 });
-//ぐるなび
-
-
 
 
 
