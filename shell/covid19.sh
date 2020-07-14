@@ -3,6 +3,7 @@
 echo "파라미터 개수 : $#"
 echo "첫 번째 파라미터: $1"
 echo "모든 파라미터 내용 : $@"
+WEBHOOKURL=`grep WEBHOOKURL ./config/* | awk -F '["]' '{print $4}'`
 
 covidDate=`LANG=en_US.UTF-8 date '+%B %-d'`
 covidDate2=`LANG=en_US.UTF-8 date '+%Y-%m-%d'`
@@ -29,7 +30,7 @@ echo "◆都内の累積感染者数："$totalCovid | tee -a $logRedir
 
 if [[ $todayCovid != "未発表" && $1 == "" ]]; then
   DATA_PAYLOAD="payload={\"text\": \"◆本日($covidDate2)都内の感染者数：$todayCovid\n◆都内の累積感染者数：$totalCovid\"}"
-  WEBHOOKURL="https://hooks.slack.com/services/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"
+  WEBHOOKURL="$WEBHOOKURL"
   curl -s -S -X POST --data-urlencode "${DATA_PAYLOAD}" "${WEBHOOKURL}" > /dev/null 2>&1
 
   echo "◆本日("$covidDate2")都内の感染者数："$todayCovid > ~/covid19/$covidDate2
@@ -40,7 +41,7 @@ if [[ $1 == "trigger" ]]; then
   echo "trigger Activate"
 
   DATA_PAYLOAD="payload={\"text\": \"◆本日($covidDate2)都内の感染者数：$todayCovid\n◆都内の累積感染者数：$totalCovid\"}"
-  WEBHOOKURL="https://hooks.slack.com/services/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"
+  WEBHOOKURL="$WEBHOOKURL"
   curl -s -S -X POST --data-urlencode "${DATA_PAYLOAD}" "${WEBHOOKURL}" > /dev/null 2>&1
 
   if [[ $todayCovid != "未発表" ]]; then
