@@ -15,8 +15,6 @@ fi
 
 curl -sS -L --retry 5 "https://stopcovid19.metro.tokyo.lg.jp/" --output ~/covid19.txt
 
-# covidDate=`date '+%B %-d' --date '1 days ago'`
-
 todayCovid=`grep -A 3 "$covidDate" ~/covid19.txt | tail -3 | head -1`
 totalCovid=`grep -A 3 "$covidDate" ~/covid19.txt | tail -1`
 
