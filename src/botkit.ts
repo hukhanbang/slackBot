@@ -94,7 +94,12 @@ controller.hears(['ぐるなび'], botScope, async(bot, message) => {
 	
 	if (gurunaviText[1] == undefined){
 		console.log('全角スペース');
-	   var gurunaviText = message.text.split('　')
+	  	var gurunaviText = message.text.split('　')
+	 }
+	
+	if (gurunaviText[1] == "help"){
+	  	await bot.reply(message,"使い方→@slackbottest ぐるなび　食べ物名　地域名");
+	  	return;
 	 }
 	
 	var encodegurunavi = encodeURIComponent( gurunaviText[1] )

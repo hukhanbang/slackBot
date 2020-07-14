@@ -1,0 +1,235 @@
+{
+    "@attributes": {
+        "api_version": "v3"
+    },
+    "total_hit_count": 3,
+    "hit_per_page": 100,
+    "page_offset": 1,
+    "rest": [
+        {
+            "@attributes": {
+                "order": 0
+            },
+            "id": "e230905",
+            "update_date": "2020-07-07T18:46:51+09:00",
+            "name": "居酒屋 土間土間 南行徳店",
+            "name_kana": "イザカヤドマドマ ミナミギョウトクテン",
+            "latitude": "35.671708",
+            "longitude": "139.901906",
+            "category": "和風居酒屋",
+            "url": "https://r.gnavi.co.jp/7bnycbs20000/?ak=uGcdstkrPyYEFDFJGr6uGvW0pMZ5BXOEAqFiw6a3lm0%3D",
+            "url_mobile": "http://mobile.gnavi.co.jp/shop/e230905/?ak=uGcdstkrPyYEFDFJGr6uGvW0pMZ5BXOEAqFiw6a3lm0%3D",
+            "coupon_url": {
+                "pc": "https://r.gnavi.co.jp/7bnycbs20000/coupon/",
+                "mobile": "http://mobile.gnavi.co.jp/shop/e230905/coupon"
+            },
+            "image_url": {
+                "shop_image1": "https://rimage.gnst.jp/rest/img/7bnycbs20000/t_0p5m.jpg",
+                "shop_image2": "https://rimage.gnst.jp/rest/img/7bnycbs20000/t_0p5n.jpg",
+                "qrcode": "https://c-r.gnst.jp/tool/qr/?id=e230905&q=6"
+            },
+            "address": "〒272-0138 千葉県市川市南行徳1-20-8 2F",
+            "tel": "050-3491-2171",
+            "tel_sub": "047-701-0161",
+            "fax": "047-701-0161",
+            "opentime": "月～木・祝日 17:00～翌3:00\n土 16:00～翌5:00\n日 16:00～翌1:00\n金 17:00～翌5:00",
+            "holiday": "年中無休",
+            "access": {
+                "line": "地下鉄東西線",
+                "station": "南行徳駅",
+                "station_exit": "",
+                "walk": "3",
+                "note": ""
+            },
+            "parking_lots": "",
+            "pr": {
+                "pr_short": "2020年宴会のご予約受け付けております！ 個室・お座敷・テーブル席 ご予約お待ちしております☆ 最大50～60名様 お座敷 個室ありご予約はお早めに♪",
+                "pr_long": "◇◆◇ 宴会に！3時間飲み放題付特別コース ◇◆◇\n＜1000円OFFや飲み放題のランクアップなど特典あり♪＞\n・全9品『牛すき焼きコース』5,000円⇒4,000円\n・全9品『豪華海鮮ちゃんこコース』5,000円→4,000円\n・全9品 『明太モツ鍋コース』4,500円⇒3,500円\n☆大人気☆全9品『チーズタッカルビコース』4,000円⇒3,000円\n・全9品『味噌ちゃんこ鍋コース』 4,000円⇒3,000円\n・全9品『グリルチキンのすき焼きコース』3,700円⇒2,700円\n・全4品『二次会コース』2,100円"
+            },
+            "code": {
+                "areacode": "AREA110",
+                "areaname": "関東",
+                "prefcode": "PREF12",
+                "prefname": "千葉県",
+                "areacode_s": "AREAS2522",
+                "areaname_s": "行徳・原木",
+                "category_code_l": [
+                    "RSFST09000",
+                    "RSFST06000"
+                ],
+                "category_name_l": [
+                    "居酒屋",
+                    "焼き鳥・肉料理・串料理"
+                ],
+                "category_code_s": [
+                    "RSFST09004",
+                    "RSFST06003"
+                ],
+                "category_name_s": [
+                    "居酒屋",
+                    "焼き鳥"
+                ]
+            },
+            "budget": 2500,
+            "party": 2950,
+            "lunch": "",
+            "credit_card": "VISA,MasterCard,UC,DC,アメリカン・エキスプレス,JCB,銀聯,MUFG,Discover Card",
+            "e_money": "nanaco,楽天Edy,Suica,PASMO,ICOCA,iD,QUICPay,WAON,SUGOCA,manaca,nimoca,はやかけん,TARCA,Apple Pay",
+            "flags": {
+                "mobile_site": 1,
+                "mobile_coupon": 1,
+                "pc_coupon": 1
+            }
+        },
+        {
+            "@attributes": {
+                "order": 1
+            },
+            "id": "b743602",
+            "update_date": "2020-07-01T00:29:59+09:00",
+            "name": "牛角 妙典店",
+            "name_kana": "ギュウカク ミョウデンテン",
+            "latitude": "35.690657",
+            "longitude": "139.924005",
+            "category": "本格！炭火焼肉＆宴会",
+            "url": "https://r.gnavi.co.jp/b743602/?ak=uGcdstkrPyYEFDFJGr6uGvW0pMZ5BXOEAqFiw6a3lm0%3D",
+            "url_mobile": "http://mobile.gnavi.co.jp/shop/b743602/?ak=uGcdstkrPyYEFDFJGr6uGvW0pMZ5BXOEAqFiw6a3lm0%3D",
+            "coupon_url": {
+                "pc": "https://r.gnavi.co.jp/b743602/coupon/",
+                "mobile": "http://mobile.gnavi.co.jp/shop/b743602/coupon"
+            },
+            "image_url": {
+                "shop_image1": "https://rimage.gnst.jp/rest/img/46e0b39bomst/t_0new.jpg",
+                "shop_image2": "https://rimage.gnst.jp/rest/img/46e0b39bomst/t_0nex.jpg",
+                "qrcode": "https://c-r.gnst.jp/tool/qr/?id=b743602&q=6"
+            },
+            "address": "〒272-0115 千葉県市川市富浜2-6-1",
+            "tel": "050-3490-3142",
+            "tel_sub": "047-701-1129",
+            "fax": "",
+            "opentime": "月～日 17:00～24:00(L.O.23:20)(※土日祝日は大変混雑が予想されますので、事前のご予約や来店前にお電話で席状況の確認をしていただくことを推奨しております。)",
+            "holiday": "無",
+            "access": {
+                "line": "地下鉄東西線",
+                "station": "妙典駅",
+                "station_exit": "",
+                "walk": "1",
+                "note": ""
+            },
+            "parking_lots": "",
+            "pr": {
+                "pr_short": "10月16日～新メニュー登場!! “牛角流”アレンジメニューも多数ご用意♪",
+                "pr_long": "ご注文は、お客様のお好みに合わせて\n単品でのご注文。コース、食べ放題からお選びいただけます。\n大人数でワイワイあれこれ楽しみたい！あなたへ\n90分食べ放題(ラストオーダー70分〉\n□お気軽食べ放題コース 80品以上が食べ放題！ 2980円（税抜）\n□牛角食べ放題コース  100品以上が食べ放題！ 3480円（税抜）\n□堪能食べ放題コース  120品以上が食べ放題！ 4380円（税抜）\n☆４名様以上２日前までのご予約で超おトク！☆事前予約で９０分⇒１２０分に♪\n■お気軽食べ飲み放題コース 4960円⇒４０００円（税抜）\n■牛角食べ飲み放題コース  5460円⇒４５００円（税抜）\n■堪能食べ飲み放題コース  6360円⇒５４００円（税抜）"
+            },
+            "code": {
+                "areacode": "AREA110",
+                "areaname": "関東",
+                "prefcode": "PREF12",
+                "prefname": "千葉県",
+                "areacode_s": "AREAS2522",
+                "areaname_s": "行徳・原木",
+                "category_code_l": [
+                    "RSFST05000",
+                    "RSFST05000"
+                ],
+                "category_name_l": [
+                    "焼肉・ホルモン",
+                    "焼肉・ホルモン"
+                ],
+                "category_code_s": [
+                    "RSFST05001",
+                    "RSFST05002"
+                ],
+                "category_name_s": [
+                    "焼肉",
+                    "ホルモン"
+                ]
+            },
+            "budget": 3300,
+            "party": 3900,
+            "lunch": "",
+            "credit_card": "VISA,MasterCard,UC,DC,アメリカン・エキスプレス,JCB,MUFG",
+            "e_money": "",
+            "flags": {
+                "mobile_site": 1,
+                "mobile_coupon": 1,
+                "pc_coupon": 1
+            }
+        },
+        {
+            "@attributes": {
+                "order": 2
+            },
+            "id": "b089600",
+            "update_date": "2020-05-20T05:40:43+09:00",
+            "name": "割烹 白浜",
+            "name_kana": "カッポウシラハマ",
+            "latitude": "35.678479",
+            "longitude": "139.901946",
+            "category": "和食",
+            "url": "https://r.gnavi.co.jp/b089600/?ak=uGcdstkrPyYEFDFJGr6uGvW0pMZ5BXOEAqFiw6a3lm0%3D",
+            "url_mobile": "http://mobile.gnavi.co.jp/shop/b089600/?ak=uGcdstkrPyYEFDFJGr6uGvW0pMZ5BXOEAqFiw6a3lm0%3D",
+            "coupon_url": {
+                "pc": "",
+                "mobile": ""
+            },
+            "image_url": {
+                "shop_image1": "https://rimage.gnst.jp/rest/img/dnr5hp5p0000/t_001h.jpg",
+                "shop_image2": "https://rimage.gnst.jp/rest/img/dnr5hp5p0000/t_001i.jpg",
+                "qrcode": "https://c-r.gnst.jp/tool/qr/?id=b089600&q=6"
+            },
+            "address": "〒272-0142 千葉県市川市欠真間2-19-25",
+            "tel": "047-356-8557",
+            "tel_sub": "",
+            "fax": "",
+            "opentime": "火～日・祝日 昼食：11:30～14:30(L.O.14:00)\n火～日・祝日 夕食：17:00～22:00(L.O.21:30)",
+            "holiday": "毎週月曜日\n※※月曜が祝日の場合、月曜は営業し翌火曜を休みます。",
+            "access": {
+                "line": "地下鉄東西線",
+                "station": "南行徳駅",
+                "station_exit": "",
+                "walk": "10",
+                "note": ""
+            },
+            "parking_lots": "15",
+            "pr": {
+                "pr_short": "訪れる方皆様にお寛ぎいただける明るくゆったりとした空間。特別な日を飾る、心づくしのおもてなし。白浜ならではの贅をご堪能くださいませ。",
+                "pr_long": "◆美味◆\n新鮮な食材を使い、目で楽しめ、おいしさの笑みがこぼれる料理をご要望に応じておつくりいたします。\n季節の香りを添えて・・・ \n◆饗宴◆\n和とモダンが織りなす上質な居心地もご馳走\nごゆっくりと、和みのときを・・・ \n◆心からのおもてなし◆\nご宴会、ご法事、お祝い事、ご接待、\nそれぞれの特別な日に合わせた心づくしのおもてなしを"
+            },
+            "code": {
+                "areacode": "AREA110",
+                "areaname": "関東",
+                "prefcode": "PREF12",
+                "prefname": "千葉県",
+                "areacode_s": "AREAS2522",
+                "areaname_s": "行徳・原木",
+                "category_code_l": [
+                    "RSFST02000",
+                    "RSFST02000"
+                ],
+                "category_name_l": [
+                    "日本料理・郷土料理",
+                    "日本料理・郷土料理"
+                ],
+                "category_code_s": [
+                    "RSFST02003",
+                    "RSFST06008"
+                ],
+                "category_name_s": [
+                    "割烹",
+                    "しゃぶしゃぶ"
+                ]
+            },
+            "budget": 3000,
+            "party": 4500,
+            "lunch": 1050,
+            "credit_card": "",
+            "e_money": "",
+            "flags": {
+                "mobile_site": 1,
+                "mobile_coupon": 0,
+                "pc_coupon": 0
+            }
+        }
+    ]
+}
