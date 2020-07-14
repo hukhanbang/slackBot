@@ -30,5 +30,5 @@ fi
 
 
 
-# rm -rf $gurunaviFile
-# rm -rf $gurunaviAREAFile
+rm -rf $gurunaviFile
+rm -rf $gurunaviAREAFile
