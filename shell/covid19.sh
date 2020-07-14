@@ -25,8 +25,8 @@ if [[ $todayCovid == "" ]]; then
   totalCovid="未発表"
 fi
 
-echo "◆本日("$covidDate2")都内の感染者数："$todayCovid | tee -a $logRedir
-echo "◆都内の累積感染者数："$totalCovid | tee -a $logRedir
+echo "◆本日("$covidDate2")都内の感染者数："$todayCovid
+echo "◆都内の累積感染者数："$totalCovid
 
 if [[ $todayCovid != "未発表" && $1 == "" ]]; then
   DATA_PAYLOAD="payload={\"text\": \"◆本日($covidDate2)都内の感染者数：$todayCovid\n◆都内の累積感染者数：$totalCovid\"}"

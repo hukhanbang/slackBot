@@ -31,10 +31,9 @@ const botScope = [
 
 
 
-controller.hears(['わからないな'], botScope, async(bot, message) => {
-	console.log(message);
-	console.log(message.text);
-	await bot.reply(message, 'ボット');
+controller.hears(['help','使い方'], botScope, async(bot, message) => {
+	var manual="@bot ぐるなび\n@bot 今日は何の日\n@bot 勤怠　曜日\n@bot 時間or時刻\n@bot covid"
+	await bot.reply(message, manual);
 });
 
 controller.hears(['今日は何の日'], botScope, async(bot, message) => {
@@ -84,6 +83,11 @@ controller.hears(['コロナ','covid','코로나','corona'], botScope, async(bot
 	console.log(stdout);
 	var stdoutArray = stdout.split('\n')
 	var SlackStdout = stdoutArray[3] + '\n' + stdoutArray[4];
+	
+	console.log("세번쨰");
+	console.log(stdoutArray[3]);
+	console.log("네번쨰");
+	console.log(stdoutArray[4]);
 	await bot.reply(message,SlackStdout);
 });
 
