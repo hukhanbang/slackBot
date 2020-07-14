@@ -8,6 +8,10 @@ ngrok http 3000
 
 
 Git Push 방법
-# git add .
-# git commit -m "메시지 내용"
-# git push origin master
+git add .
+git commit -m "메시지 내용"
+git push origin master
+
+
+Git에 있는 파일 삭제
+git rm -r --cached .gitignore
