@@ -13,7 +13,7 @@ if [[ -e ~/whattoday/$whattodayDate2 ]]; then
 else
 	curl -L https://kids.yahoo.co.jp/today/ --output ~/whattoday/whattoday
 
-	whattodayTitle=`grep '7月13日' ~/whattoday/whattoday | head -1 | awk -F '[>]' '{print $2}' | awk '{print $1}'`
+	whattodayTitle=`grep $whattodayDate ~/whattoday/whattoday | head -1 | awk -F '[>]' '{print $2}' | awk '{print $1}'`
 	whattodayContents=`grep '<dd>' ~/whattoday/whattoday | head -1 | awk -F '[>]' '{print $2}' | awk -F '[<]' '{print $1}'`
 fi
 

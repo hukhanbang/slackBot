@@ -98,7 +98,7 @@ controller.hears(['ぐるなび'], botScope, async(bot, message) => {
 	 }
 	
 	if (gurunaviText[1] == "help"){
-	  	await bot.reply(message,"使い方→@slackbottest ぐるなび　食べ物名　地域名");
+	  	await bot.reply(message,"使い方→@bot ぐるなび　食べ物名　地域名");
 	  	return;
 	 }
 	
