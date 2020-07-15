@@ -3,7 +3,7 @@
 echo "파라미터 개수 : $#"
 echo "첫 번째 파라미터: $1"
 echo "모든 파라미터 내용 : $@"
-WEBHOOKURL=`grep WEBHOOKURL ./config/* | awk -F '["]' '{print $4}'`
+WEBHOOKURL=`grep WEBHOOKURL ../config/* | awk -F '["]' '{print $4}'`
 
 covidDate=`LANG=en_US.UTF-8 date '+%B %-d'`
 covidDate2=`LANG=en_US.UTF-8 date '+%Y-%m-%d'`
