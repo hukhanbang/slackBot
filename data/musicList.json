@@ -1,0 +1,50 @@
+[
+	{
+		"NAME": "YUKIKA",
+		"TITLE": "NEON",
+		"URL": "https://www.youtube.com/watch?v=67jSYCSrnE4",
+		"IMAGE": "https://lh3.googleusercontent.com/vEN8cUMnsi8nFfmctoRZBwiuexOqyK2tAHr_pfMB33zNkNk3PmzFDFQTKc4WZIYqmrzvWeJ-=w360-c-h360-e100-v1"
+	},
+	{
+		"NAME": "YUKIKA",
+		"TITLE": "Cherries Jubiles",
+		"URL": "https://www.youtube.com/watch?v=UUiTiUwl5ew",
+		"IMAGE": "https://i.ytimg.com/vi/UUiTiUwl5ew/maxresdefault.jpg"
+	},
+	{
+		"NAME": "Twenty One Pilots",
+		"TITLE": "Tear In My Heart",
+		"URL": "https://www.youtube.com/watch?v=nky4me4NP70",
+		"IMAGE": "https://i.ytimg.com/vi/nky4me4NP70/hqdefault.jpg"
+	},
+	{
+		"NAME": "The Weeknd",
+		"TITLE": "Blinding Lights",
+		"URL": "https://www.youtube.com/watch?v=fHI8X4OXluQ",
+		"IMAGE": "https://images.genius.com/34f64023689311291042be2cad78ac88.1000x1000x1.jpg"
+	},
+	{
+		"NAME": "Maroon 5",
+		"TITLE": "Memories",
+		"URL": "https://www.youtube.com/watch?v=SlPhMPnQ58k",
+		"IMAGE": "https://i.ytimg.com/vi/SlPhMPnQ58k/maxresdefault.jpg"
+	},
+	{
+		"NAME": "IU(아이유)",
+		"TITLE": "Blueming(블루밍)",
+		"URL": "https://www.youtube.com/watch?v=D1PvIWdJ8xo",
+		"IMAGE": "https://i.ytimg.com/vi/D1PvIWdJ8xo/maxresdefault.jpg"
+	},
+	{
+		"NAME": "IU(아이유)",
+		"TITLE": "BBIBBI(삐삐)",
+		"URL": "https://www.youtube.com/watch?v=nM0xDI5R50E",
+		"IMAGE": "https://i.ytimg.com/vi/nM0xDI5R50E/maxresdefault.jpg"
+	},
+	{
+		"NAME": "숀 (SHAUN)",
+		"TITLE": "습관 Bad Habits",
+		"URL": "https://www.youtube.com/watch?v=eKNLp1xjdzI",
+		"IMAGE": "https://i.ytimg.com/vi/eKNLp1xjdzI/maxresdefault.jpg"
+	}
+]
